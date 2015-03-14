@@ -1,28 +1,30 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#general
+.DS_Store
+thumbs.db
+.svn
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# proj.android
+proj.android/assets
+proj.android/bin
+proj.android/gen
+proj.android/libs
+proj.android/obj
+proj.android/local.properties
+gdb.setup
+gdbserver
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# proj.ios_mac
+xcuserdata
+*.xccheckout
+/bin
+cocos2d/build/build
+proj.ios_mac/build
 
-# Fortran module files
-*.mod
+# visual studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+.*_PList.Dir
